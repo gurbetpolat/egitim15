@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    ;
+}
+
+#navbar>ul {
+    overflow: auto;
+    overflow-x: hidden;
+    height: calc(100vh - 43px);
+}
+
+/* ::-webkit-scrollbar {
+    width: 12px;
+    background-color: #ade0d8;
+    
+    }
+    ::-webkit-scrollbar-thumb{
+    background-color: gray;
+    
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    background-color: #4d4e53;
+    
+    }  */
+
+#navbarli {
+    list-style-type: none;
+
+
+    overflow: hidden;
+}
+
+#navbarli {
+    list-style: none;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #4d4e53;
+    font-weight: 50px;
+    display: block;
+    text-align: left;
+    justify-content: center;
+    font-family: calibri, arial, verdana;
+    font-size: 20px;
+    width: 280px;
+    border-bottom: 1px solid #4d4e53;
+
+}
+
+
+h1 {
+    font-size: 25px;
+    font-weight: 50px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    text-align: center;
+    color: black;
+    border-bottom: 1px solid #4d4e53;
+}
+
+.main-section {
+    margin-left: 330px;
+    ;
+}
+
+header {
+    color: black;
+    font-weight: 200px;
+    font-size: 25px;
+    text-align: left;
+    margin: 25px;
+}
+
+p {
+
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+code {
+    background-color: #f7f7f7;
+    border: 2px;
+    line-height: 3;
+    display: block;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+article {
+
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+
+}
+
+/*section içindeki li taglarinin sınıfı */
+.page {
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+
+}
